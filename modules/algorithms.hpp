@@ -9,7 +9,7 @@ namespace module
 class AlgorithmsModule : public lib::IModule<AlgorithmsModule>
 {
 public:
-    DECLARE_CLASS_NAME(AlgorithmsModule);
+    DECLARE_CLASS_NAME(AlgorithmsModule)
 
     bool execute(const lib::ArgumentCollection& commandLine) override;
 };
